@@ -19,8 +19,11 @@ app.listen(process.env.PORT,()=>{
     connectDB()
 })
 app.use(cors({
-  origin: "http://localhost:5173",  
-  credentials: true                 
+  origin: [
+    "http://localhost:5173",
+    "https://educore-frontend-b0p4.onrender.com"
+  ],
+  credentials: true
 }));
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
