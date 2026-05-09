@@ -48,8 +48,8 @@ export const createCheckOutSession = async (req, res) => {
         }, 
       ],
       mode: "payment",
-      success_url: `http://localhost:5173/purchase?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `http://localhost:5173/cancel`,
+      success_url: `https://educore-frontend-b0p4.onrender.com/purchase?session_id={CHECKOUT_SESSION_ID}`,
+cancel_url: `https://educore-frontend-b0p4.onrender.com/cancel`,
       metadata: {
         userId: req.user._id.toString(),
         courseId: courseId.toString(),
