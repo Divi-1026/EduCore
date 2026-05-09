@@ -15,7 +15,7 @@ import { PaymentSuccess } from "@/Course/PaymentSucces";
 import CreateCourse from "@/Course/CreateCourse";
 import AdminPanel from "@/components/AdminPannel";
 import UserProfile from "@/components/Profile/UserProfile";
-import EducatorProfile from "@/components/Profile/Educator_profile";
+import EducatorProfile from "@/components/Profile/Educator_Profile";
 import EducatorAnalytics from "@/components/Profile/Educator_Analytics";
 import AdminProfile from "@/components/Profile/Admin_Profile";
 import NavBar from "@/components/ui/Navbar";
